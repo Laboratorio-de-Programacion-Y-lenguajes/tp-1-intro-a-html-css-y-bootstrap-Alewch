@@ -64,9 +64,10 @@ Edita las variables en `assets/styles.css`:
 
 ```css
 :root {
-    --primary-color: #0d6efd;  /* Cambiar aquí */
-    --text-color: #212529;
-    --light-bg: #f8f9fa;
+     --primary-color: #7e7e7e;
+    --text-color: #7d0707;
+    --light-bg: #7e8984;
+    --border-color: #dee2e6;
 }
 ```
 
@@ -79,7 +80,7 @@ En `index.html`, copia la tarjeta (`.card`) y modifica:
 En `assets/styles.css`, modifica:
 ```css
 body {
-    font-family: 'Tu fuente aquí', sans-serif;
+    font-family: Verdana, sans-serif;
 }
 ```
 
@@ -129,6 +130,6 @@ Tu `assets/styles.css` se importa DESPUÉS de Bootstrap, así que tus estilos lo
 
 ---
 
-**Autor**: [Tu nombre]  
-**Fecha**: 2026-03-13  
-**Estado**: En desarrollo
+**Autor**: Alexis chambi  
+**Fecha**: 2026-02-04  
+**Estado**: Finalizado
