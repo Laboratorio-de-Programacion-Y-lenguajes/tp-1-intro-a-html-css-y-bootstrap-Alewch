@@ -8,10 +8,29 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <!-- Navbar (copiar de index.html) -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+   
+    <!-- Navbar (COMPLETAR: agregar logo, links activos, menú colapsable) LISTO-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Mi Blog</a>
+            <a class="navbar-brand fw-bold" href="index.html">Mi blog ALEXIS</a>
+            
+            <!-- TODO: agregar toggler y nav-items -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -21,15 +40,24 @@
             <div class="row">
                 <!-- Sidebar: Avatar (COMPLETAR) -->
                 <aside class="col-md-3 mb-4">
-                    <img src="assets/images/avatar.jpg" class="img-fluid rounded-circle mb-3" alt="Avatar" style="max-width: 200px;">
-                    <h3>Tu Nombre</h3>
+                    <img src="assets/images/alexis.jpeg" class="img-fluid rounded-circle mb-3" alt="Avatar" style="max-width: 200px;">
+                    <h3>Alexis</h3>
                     <p class="text-muted">Desarrollador web &amp; escritor</p>
                 </aside>
 
                 <!-- Contenido principal (COMPLETAR) -->
                 <article class="col-md-9">
                     <h1>Acerca de mí</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p>
+                            Hoy en día, estar al tanto de la tecnología es fundamental porque influye directamente
+                            en la forma en que estudiamos, trabajamos, nos comunicamos y resolvemos problemas. 
+                            La tecnología avanza a un ritmo muy rápido y quienes se mantienen actualizados tienen más oportunidades 
+                            de crecimiento académico y laboral, ya que pueden adaptarse mejor a nuevas herramientas, sistemas y metodologías
+                            digitales. Además, comprender la tecnología no solo permite usarla, sino también aprovecharla 
+                            de manera estratégica, optimizando tiempos, mejorando la productividad y tomando decisiones más informadas. 
+                            En un mundo cada vez más digital, mantenerse actualizado tecnológicamente deja de ser una opción y se convierte 
+                            en una necesidad para no quedarse atrás.    
+                        </p>
                     <!-- TODO: agregar más párrafos, habilidades, etc. -->
                 </article>
             </div>
