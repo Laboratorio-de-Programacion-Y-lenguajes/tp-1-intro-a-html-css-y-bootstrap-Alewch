@@ -14,7 +14,7 @@
             <a class="navbar-brand fw-bold" href="index.html">Mi blog ALEXIS</a>
             
             <!-- TODO: agregar toggler y nav-items -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
@@ -42,6 +42,7 @@
 
                     <form id="contactForm" novalidate>
                         <fieldset class="border p-5 rounded shadow-lg">
+                            <legend class="mb-3">Formulario de Contacto</legend>
                             <!-- Campo nombre (COMPLETAR: validación) -->
                             <div class="mb-3">
                                 <label for="name" class="form-label">Nombre *</label>
@@ -55,7 +56,7 @@
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email *</label>
                                 <input type="email" class="form-control" id="email" name="email" required>
-                                <div class="invalid-feedback">|
+                                <div class="invalid-feedback">
                                     Por favor ingresa un email válido.
                                 </div>
                             </div>
