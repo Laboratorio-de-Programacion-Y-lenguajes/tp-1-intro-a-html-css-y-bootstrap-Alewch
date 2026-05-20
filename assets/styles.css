@@ -5,6 +5,7 @@
     --light-bg: #7e8984;
     --border-color: #dee2e6;
 }
+
 /* ===== Reset y base ===== */
 * {
     margin: 0;
@@ -88,6 +89,7 @@ a {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgb(13 110 253 / 30%);
 }
+
 .img-social{
     width: 50px;
     height: 50px;
