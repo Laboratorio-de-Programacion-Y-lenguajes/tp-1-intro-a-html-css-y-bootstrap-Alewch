@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RI8vnIt_)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23353107)
 # Mi Blog Personal - TP Semana 1
 
 Página web de blog personal usando **HTML5**, **CSS3** y **Bootstrap 5**.
@@ -64,9 +66,10 @@ Edita las variables en `assets/styles.css`:
 
 ```css
 :root {
-    --primary-color: #0d6efd;  /* Cambiar aquí */
-    --text-color: #212529;
-    --light-bg: #f8f9fa;
+     --primary-color: #7e7e7e;
+    --text-color: #7d0707;
+    --light-bg: #7e8984;
+    --border-color: #dee2e6;
 }
 ```
 
@@ -79,7 +82,7 @@ En `index.html`, copia la tarjeta (`.card`) y modifica:
 En `assets/styles.css`, modifica:
 ```css
 body {
-    font-family: 'Tu fuente aquí', sans-serif;
+    font-family: Verdana, sans-serif;
 }
 ```
 
@@ -129,6 +132,6 @@ Tu `assets/styles.css` se importa DESPUÉS de Bootstrap, así que tus estilos lo
 
 ---
 
-**Autor**: [Tu nombre]  
-**Fecha**: 2026-03-13  
-**Estado**: En desarrollo
+**Autor**: Alexis chambi  
+**Fecha**: 2026-02-04  
+**Estado**: Finalizado

@@ -8,10 +8,28 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+    <!-- Navbar (COMPLETAR: agregar logo, links activos, menú colapsable) LISTO-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Mi Blog</a>
+            <a class="navbar-brand fw-bold" href="index.html">Mi blog ALEXIS</a>
+            
+            <!-- TODO: agregar toggler y nav-items -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -23,41 +41,44 @@
                     <h1 class="mb-4">Contacto</h1>
 
                     <form id="contactForm" novalidate>
-                        <!-- Campo nombre (COMPLETAR: validación) -->
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nombre *</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                            <div class="invalid-feedback">
-                                Por favor ingresa tu nombre.
+                        <fieldset class="border p-5 rounded shadow-lg">
+                            <legend class="mb-3">Formulario de Contacto</legend>
+                            <!-- Campo nombre (COMPLETAR: validación) -->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre *</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                                <div class="invalid-feedback">
+                                    Por favor ingresa tu nombre.
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Campo email (COMPLETAR) -->
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email *</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                            <div class="invalid-feedback">
-                                Por favor ingresa un email válido.
+                            <!-- Campo email (COMPLETAR) -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback">
+                                    Por favor ingresa un email válido.
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Campo teléfono (COMPLETAR: opcional) -->
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="phone" name="phone">
-                        </div>
-
-                        <!-- Campo mensaje (COMPLETAR: minlength) -->
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Mensaje *</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required minlength="10"></textarea>
-                            <div class="invalid-feedback">
-                                El mensaje debe tener al menos 10 caracteres.
+                            <!-- Campo teléfono (COMPLETAR: opcional) -->
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
                             </div>
-                        </div>
 
-                        <!-- Botón submit -->
-                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar</button>
+                            <!-- Campo mensaje (COMPLETAR: minlength) -->
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required minlength="10"></textarea>
+                                <div class="invalid-feedback">
+                                    El mensaje debe tener al menos 10 caracteres.
+                                </div>
+                            </div>
+
+                            <!-- Botón submit -->
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Enviar</button>
+                        </fieldset>
                     </form>
                 </div>
             </div>
